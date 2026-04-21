@@ -1,0 +1,38 @@
+{
+  "cale_baza": "/resurse/imagini/erori",
+  "eroare_default": {
+    "titlu": "Eroare",
+    "text": "A apărut o problemă la afișarea paginii cerute.",
+    "imagine": "eroare-generica.svg"
+  },
+  "info_erori": [
+    {
+      "identificator": 400,
+      "status": true,
+      "titlu": "Cerere greșită",
+      "text": "Fișierele template cu extensia .ejs nu pot fi accesate direct din browser.",
+      "imagine": "400.svg"
+    },
+    {
+      "identificator": 403,
+      "status": true,
+      "titlu": "Acces interzis",
+      "text": "Nu ai permisiunea necesară pentru a accesa această resursă.",
+      "imagine": "403.svg"
+    },
+    {
+      "identificator": 404,
+      "status": true,
+      "titlu": "Eroare 404",
+      "text": "Pagina pe care ai cerut-o nu există.",
+      "imagine": "404.svg"
+    },
+    {
+      "identificator": 500,
+      "status": true,
+      "titlu": "Eroare internă",
+      "text": "Serverul a întâmpinat o problemă și nu a putut finaliza cererea.",
+      "imagine": "500.svg"
+    }
+  ]
+}

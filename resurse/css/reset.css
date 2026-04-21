@@ -1,0 +1,228 @@
+html {
+    font-size: 17px;
+    transition: font-size 0.3s ease;
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --reset-base-font-size: 16px;
+    --reset-base-line-height: 1.5;
+    --reset-margin-small: 0.25rem;
+    --reset-margin-medium: 0.5rem;
+    --reset-margin-large: 1rem;
+    --reset-padding-small: 0.25rem;
+    --reset-padding-medium: 0.5rem;
+    --reset-padding-large: 1rem;
+    --reset-color-text: #333;
+    --reset-color-bg: #fff;
+    --reset-color-accent: #000;
+    --reset-font-weight-normal: 400;
+    --reset-font-weight-bold: 700;
+    --reset-border-width: 1px;
+    --reset-border-color: #ccc;
+    --reset-list-style-type: disc;
+    --reset-list-style-position: outside;
+    --reset-table-border-collapse: collapse;
+    --reset-table-border-spacing: 0;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+html {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+body {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1.1rem; }
+h6 { font-size: 1rem; }
+
+p, li, dd, dt, blockquote, address {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+strong, b {
+    font-weight: bold;
+}
+
+em, i {
+    font-style: italic;
+}
+
+ol, ul {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+li {
+    margin-bottom: 0.25rem;
+}
+
+dl {
+    margin: 0.5rem 0;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+dd {
+    margin-left: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+th, td {
+    padding: 0.5rem;
+    text-align: left;
+    font-size: 1rem;
+}
+
+caption {
+    text-align: left;
+    margin-bottom: 0.25rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+blockquote {
+    padding-left: 1rem;
+    margin: 0.5rem 0;
+    font-style: italic;
+}
+
+code, kbd, samp {
+    font-family: monospace;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    font-size: 1rem;
+}
+
+sub, sup {
+    font-size: 0.75em;
+    vertical-align: baseline;
+    position: relative;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+ins {
+    text-decoration: underline;
+}
+
+mark {
+    padding: 0.1rem 0.3rem;
+}
+
+abbr, acronym {
+    cursor: help;
+}
+
+small {
+    font-size: 0.875rem;
+}
+
+big {
+    font-size: 1.125rem;
+}
+
+fieldset {
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 4px;
+}
+
+legend {
+    padding: 0 0.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+input, textarea, select, button {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+figure {
+    margin: 1rem 0;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    margin-top: 0.25rem;
+}

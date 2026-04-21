@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="480" viewBox="0 0 840 480">
+  <rect width="840" height="480" fill="#f3eee8"/>
+  <rect x="40" y="40" width="760" height="400" rx="28" fill="#fffdfa" stroke="#9c6f39" stroke-width="4"/>
+  <text x="420" y="180" text-anchor="middle" font-size="112" font-family="Georgia, serif" fill="#9c6f39">500</text>
+  <text x="420" y="250" text-anchor="middle" font-size="34" font-family="Arial, sans-serif" fill="#47341a">Eroare interna</text>
+  <text x="420" y="305" text-anchor="middle" font-size="22" font-family="Arial, sans-serif" fill="#74624b">Serverul nu a putut procesa cererea</text>
+</svg>

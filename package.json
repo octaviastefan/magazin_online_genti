@@ -1,0 +1,20 @@
+{
+  "name": "tehnici_web",
+  "version": "1.0.0",
+  "description": "magazin genti",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "genti",
+    "fashion",
+    "luxury"
+  ],
+  "author": "Octavia Stefan",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^5.0.2",
+    "express": "^5.2.1"
+  }
+}

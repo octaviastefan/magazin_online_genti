@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <title><%= eroare.titlu %> | Luxury Bags by Octavia</title>
+    <meta name="description" content="<%= eroare.text %>">
+    <%- include("../fragmente/head") %>
+</head>
+<body id="top">
+    <%- include("../fragmente/header") %>
+
+    <main>
+        <section class="zona">
+            <h2><%= eroare.titlu %></h2>
+            <p><%= eroare.text %></p>
+            <figure>
+                <img src="<%= eroare.imagine %>" alt="<%= eroare.titlu %>" width="420" height="240">
+            </figure>
+            <p>Te rugăm să revii la <a href="/">pagina principală</a> sau să folosești meniul pentru a continua navigarea.</p>
+        </section>
+    </main>
+
+    <%- include("../fragmente/footer") %>
+</body>
+</html>

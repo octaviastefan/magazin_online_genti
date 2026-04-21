@@ -1,0 +1,30 @@
+@media screen and (max-width: 1000px) {
+  .main-nav {
+    font-size: 0.94rem;
+  }
+  .main-nav > ul.menu-list {
+    gap: 0.25rem;
+  }
+  .main-nav > ul.menu-list > li > a {
+    justify-content: center;
+    padding: 1rem 0.85rem;
+  }
+  .main-nav > ul.menu-list > li > a .menu-icon {
+    display: inline-flex;
+    font-size: 1.2rem;
+    min-width: auto;
+  }
+  .main-nav > ul.menu-list > li > a .menu-text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(50%);
+    white-space: nowrap;
+    border: 0;
+  }
+}
+
