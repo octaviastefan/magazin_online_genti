@@ -1,0 +1,36 @@
+<section id="galerie-statica" class="galerie-statica">
+    <h2>Galerie statica</h2>
+
+    <% if (typeof galerie !== "undefined" && galerie.imagini && galerie.imagini.length) { %>
+        <div class="grid-galerie">
+            <% galerie.imagini.forEach(function(imagine) { %>
+                <figure class="item-galerie">
+                    <picture>
+                        <source media="(max-width: 700px)" srcset="<%= imagine.cale_mic %>">
+                        <source media="(max-width: 1100px)" srcset="<%= imagine.cale_mediu %>">
+                        <img
+                            src="<%= imagine.cale_mare %>"
+                            alt="<%= imagine.alt %>"
+                            title="<%= imagine.descriere %>"
+                            width="480"
+                            height="320"
+                            loading="lazy">
+                    </picture>
+                    <figcaption>
+                        <strong><%= imagine.titlu %></strong>
+                        <span><%= imagine.descriere %></span>
+                        <% if (imagine.licenta && imagine.autor && imagine.sursa) { %>
+                            <small>
+                                Foto:
+                                <a href="<%= imagine.sursa %>" target="_blank" rel="noopener noreferrer"><%= imagine.autor %></a>,
+                                <%= imagine.licenta %>
+                            </small>
+                        <% } %>
+                    </figcaption>
+                </figure>
+            <% }); %>
+        </div>
+    <% } else { %>
+        <p>Nu exista imagini disponibile pentru intervalul orar curent.</p>
+    <% } %>
+</section>

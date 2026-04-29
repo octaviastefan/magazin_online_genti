@@ -1,0 +1,61 @@
+$primary: #7a4b00;
+$secondary: #4f6f73;
+$success: #5f7f52;
+$info: #9eb0b4;
+$warning: #d4af37;
+$danger: #9d3f36;
+$light: #fffaf3;
+$dark: #2a2118;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark
+);
+
+$body-bg: #f8f4ee;
+$body-color: #2a2118;
+$font-family-base: Arial, sans-serif;
+$border-radius: 0.5rem;
+$border-radius-sm: 0.35rem;
+$border-radius-lg: 0.75rem;
+$border-radius-xl: 1rem;
+
+$h1-font-size: 2.35rem;
+$h2-font-size: 1.85rem;
+$h3-font-size: 1.35rem;
+$headings-font-family: "Cormorant Garamond", Georgia, serif;
+$headings-color: #3a2812;
+$headings-font-weight: 700;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 520px,
+  md: 820px,
+  lg: 1180px,
+  xl: 1360px,
+  xxl: 1540px
+);
+
+$container-max-widths: (
+  sm: 500px,
+  md: 780px,
+  lg: 1120px,
+  xl: 1280px,
+  xxl: 1440px
+);
+
+$link-color: #7a4b00;
+$link-hover-color: #b07a2a;
+$btn-border-radius: 0.45rem;
+$btn-font-weight: 700;
+$alert-border-radius: 0.5rem;
+$card-border-radius: 0.55rem;
+$input-border-radius: 0.4rem;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";

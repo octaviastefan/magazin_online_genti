@@ -1,0 +1,114 @@
+
+$nr-imagini-galerie-animata: 5;
+$durata-cadru-galerie-animata: 3s;
+$durata-galerie-animata: $nr-imagini-galerie-animata * $durata-cadru-galerie-animata;
+
+.galerie-animata {
+    margin-top: 20px;
+    background: linear-gradient(180deg, var(--fundal-crem-9) 0%, var(--fundal-crem-12) 100%);
+    border-color: var(--bordura-crem-4);
+}
+
+.cadru-galerie-animata {
+    position: relative;
+    width: min(100%, 450px);
+    height: 350px;
+    margin: 2rem auto;
+    overflow: hidden;
+    border: 12px solid transparent;
+    border-image-source: url("/resurse/imagini/chanel-classic-flap.jpg");
+    border-image-slice: 30;
+    border-image-repeat: round;
+    background-color: var(--fundal-card);
+    background-image: url("/resurse/imagini/galerie/mare/local-consultanta-privata.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.cadru-galerie-animata figure {
+    margin: 0;
+    position: absolute;
+    inset: 0;
+    opacity: 1;
+    animation-name: galerie-animata-cerc;
+    animation-duration: $durata-galerie-animata;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+.cadru-galerie-animata img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    display: block;
+}
+
+.cadru-galerie-animata figcaption {
+    height: 10%;
+    padding: 0 0.7rem;
+    text-align: center;
+    background: var(--fundal-card);
+    color: var(--maro-inchis);
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 35px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@for $i from 1 through $nr-imagini-galerie-animata {
+    .cadru-galerie-animata figure:nth-child(#{$i}) {
+        animation-delay: ($i - 1) * $durata-cadru-galerie-animata;
+        z-index: $nr-imagini-galerie-animata - $i + 1;
+    }
+}
+
+.cadru-galerie-animata:hover figure {
+    animation-play-state: paused;
+}
+
+@keyframes galerie-animata-cerc {
+    0% {
+        opacity: 1;
+        clip-path: circle(150% at 50% 50%);
+        transform: rotate(0deg);
+    }
+
+    10.666666666666666% {
+        opacity: 1;
+        clip-path: circle(150% at 50% 50%);
+        transform: rotate(0deg);
+    }
+
+    14.666666666666666% {
+        opacity: 0.85;
+        clip-path: circle(65% at 50% 50%);
+        transform: rotate(0deg);
+    }
+
+    17.333333333333332% {
+        opacity: 0.65;
+        clip-path: circle(40% at 50% 50%);
+        transform: rotate(90deg);
+    }
+
+    20% {
+        opacity: 0;
+        clip-path: circle(0% at 50% 50%);
+        transform: rotate(180deg);
+    }
+
+    100% {
+        opacity: 0;
+        clip-path: circle(0% at 50% 50%);
+        transform: rotate(180deg);
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .galerie-animata {
+        display: none;
+    }
+}

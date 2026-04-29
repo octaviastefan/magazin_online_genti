@@ -1,0 +1,105 @@
+{
+  "cale_galerie": "/resurse/imagini/galerie",
+  "imagini": [
+    {
+      "cale_imagine": "local-geanta-aurie.jpeg",
+      "titlu": "Geanta aurie de seara",
+      "descriere": "Model luminos pentru evenimente elegante si tinute de gala.",
+      "timp": "00:00-23:59",
+      "alt": "Geanta aurie eleganta din colectia Luxury Bags",
+      "autor": "Octavia Stefan",
+      "licenta": "imagine proprie / proiect scolar",
+      "sursa": "colectia locala a proiectului"
+    },
+    {
+      "cale_imagine": "local-showroom-elegant.jpeg",
+      "titlu": "Showroom elegant",
+      "descriere": "Atmosfera calda a showroom-ului pentru prezentari private.",
+      "timp": "00:00-23:59",
+      "alt": "Showroom elegant pentru prezentarea gentilor premium",
+      "autor": "Octavia Stefan",
+      "licenta": "imagine proprie / proiect scolar",
+      "sursa": "colectia locala a proiectului"
+    },
+    {
+      "cale_imagine": "local-colectie-seara.jpeg",
+      "titlu": "Colectie de seara",
+      "descriere": "Selectie rafinata de posete pentru receptii si cine speciale.",
+      "timp": "00:00-23:59",
+      "alt": "Colectie de seara cu posete premium",
+      "autor": "Octavia Stefan",
+      "licenta": "imagine proprie / proiect scolar",
+      "sursa": "colectia locala a proiectului"
+    },
+    {
+      "cale_imagine": "local-detaliu-premium.jpeg",
+      "titlu": "Detaliu premium",
+      "descriere": "Texturi si finisaje atent alese pentru modele de colectie.",
+      "timp": "00:00-23:59",
+      "alt": "Detaliu premium al unei genti elegante",
+      "autor": "Octavia Stefan",
+      "licenta": "imagine proprie / proiect scolar",
+      "sursa": "colectia locala a proiectului"
+    },
+    {
+      "cale_imagine": "local-accesoriu-clasic.jpg",
+      "titlu": "Accesoriu clasic",
+      "descriere": "Piesa discreta pentru tinute de zi si consultanta personalizata.",
+      "timp": "00:00-23:59",
+      "alt": "Accesoriu clasic pentru tinute elegante",
+      "autor": "Octavia Stefan",
+      "licenta": "imagine proprie / proiect scolar",
+      "sursa": "colectia locala a proiectului"
+    },
+    {
+      "cale_imagine": "local-consultanta-privata.jpeg",
+      "titlu": "Consultanta privata",
+      "descriere": "Spatiu pregatit pentru recomandari si alegeri personalizate.",
+      "timp": "00:00-23:59",
+      "alt": "Zona de consultanta privata pentru accesorii premium",
+      "autor": "Octavia Stefan",
+      "licenta": "imagine proprie / proiect scolar",
+      "sursa": "colectia locala a proiectului"
+    },
+    {
+      "cale_imagine": "local-vitrina-showroom.jpeg",
+      "titlu": "Vitrina showroom",
+      "descriere": "Prezentare luminoasa pentru modelele favorite ale sezonului.",
+      "timp": "00:00-23:59",
+      "alt": "Vitrina showroom cu genti elegante",
+      "autor": "Octavia Stefan",
+      "licenta": "imagine proprie / proiect scolar",
+      "sursa": "colectia locala a proiectului"
+    },
+    {
+      "cale_imagine": "local-model-capsula.jpeg",
+      "titlu": "Model capsula",
+      "descriere": "Piesa versatila pentru colectii capsula si aparitii rafinate.",
+      "timp": "00:00-23:59",
+      "alt": "Model de geanta din colectia capsula",
+      "autor": "Octavia Stefan",
+      "licenta": "imagine proprie / proiect scolar",
+      "sursa": "colectia locala a proiectului"
+    },
+    {
+      "cale_imagine": "local-selectie-premium.jpeg",
+      "titlu": "Selectie premium",
+      "descriere": "Combinatie de forme clasice si finisaje moderne pentru showroom.",
+      "timp": "00:00-23:59",
+      "alt": "Selectie premium de genti Luxury Bags",
+      "autor": "Octavia Stefan",
+      "licenta": "imagine proprie / proiect scolar",
+      "sursa": "colectia locala a proiectului"
+    },
+    {
+      "cale_imagine": "local-poseta-urbana.jpg",
+      "titlu": "Poseta urbana",
+      "descriere": "Model compact pentru tinute dinamice si iesiri de zi.",
+      "timp": "00:00-23:59",
+      "alt": "Poseta urbana compacta",
+      "autor": "Octavia Stefan",
+      "licenta": "imagine proprie / proiect scolar",
+      "sursa": "colectia locala a proiectului"
+    }
+  ]
+}

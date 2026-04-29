@@ -1,0 +1,14 @@
+<section id="galerie-animata" class="galerie-animata">
+    <h2>Galerie animata</h2>
+    <div class="cadru-galerie-animata">
+        <% galerieAnimata.imagini.forEach(function(imagine) { %>
+            <figure>
+                <img
+                    src="<%= imagine.cale_mare %>"
+                    alt="<%= imagine.alt %>"
+                    title="<%= imagine.descriere %>">
+                <figcaption><%= imagine.titlu %></figcaption>
+            </figure>
+        <% }); %>
+    </div>
+</section>

@@ -13,6 +13,15 @@
 
             <div class="zona zona1">
                 <section id="despre">
+                    <video class="video-background" autoplay muted loop playsinline aria-hidden="true">
+                        <source src="/resurse/video/prezentare.webm" type="video/webm">
+                        <source src="/resurse/video/prezentare.mp4" type="video/mp4">
+                    </video>
+
+                    <div class="text-plimbat" aria-label="Mesaj animat despre colectia Luxury Bags">
+                        <span>Colectie noua de genti premium - consultanta personalizata in showroom</span>
+                    </div>
+
                     <hgroup>
                         <h2>Despre magazinul nostru</h2>
                         <p>Genți de lux atent selectate pentru femei care apreciază eleganța și calitatea.</p>
@@ -62,6 +71,29 @@
                         <a href="/resurse/about_chanel.pdf.pdf" download="about_chanel.pdf">Descarcă PDF</a>.
                     </p>
                 </section>
+
+                <section id="efect-css-duotone">
+                    <div class="zona-reflexie-text">
+                        <h2 class="text-reflexie">
+                            <span class="text-reflexie-original">Geanta Chanel</span>
+                            <span class="text-reflexie-reflectat" aria-hidden="true">Geanta Chanel</span>
+                        </h2>
+                    </div>
+                    <p>
+                        Silueta matlasata, lantul metalic si inchiderea aurie transforma modelul clasic Chanel intr-un reper al elegantei atemporale.
+                    </p>
+                    <div
+                        class="imagine-duotone"
+                        role="img"
+                        aria-label="Geanta Chanel din selectia Luxury Bags by Octavia">
+                    </div>
+                </section>
+
+                <hr class="hr-stilizat" aria-hidden="true">
+
+                <%- include("../fragmente/galerie-animata", { galerieAnimata: galerieAnimata }) %>
+
+                <%- include("../fragmente/galerie-statica", { galerie: galerie }) %>
             </div>
 
             <div class="zona zona2">
